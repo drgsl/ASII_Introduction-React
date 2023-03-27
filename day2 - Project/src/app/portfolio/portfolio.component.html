@@ -1,0 +1,13 @@
+<p>portfolio works!</p>
+
+<button (click) = "onClick(1)" > Change color to red</button>
+<button (click) = "onClick(2)" > Change color to orange</button>
+<button (click) = "onClick(3)" > Change color to green</button>
+
+<header>
+
+    <h1 [ngClass] = "{  'red' : selectedColor == 1, 
+                        'orange' : selectedColor == 2,
+                        'green': selectedColor == 3 }"> sal </h1>
+
+</header>

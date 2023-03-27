@@ -1,0 +1,30 @@
+.post{
+    box-shadow: 5px 10px gray;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-wrapper button{
+    display: flex;
+    gap:1rem;
+    border-radius: 20px;
+    border: 0px;
+    
+}
+
+.button-wrapper button.like{
+    background-color: green;
+}
+.button-wrapper button.dislike{
+    background-color: red;
+}
+
+
+
+
+.post img {
+    width: 5rem;
+}
